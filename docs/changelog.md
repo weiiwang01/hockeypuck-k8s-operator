@@ -8,6 +8,12 @@ Each revision is versioned by the date of the revision.
 
 ## 2025-04-21
 
+### Added
+
+- Added documentation for Hockeypuck.
+
+## 2025-04-21
+
 ### Modified
 
 - Cleaned up Github workflows for Hockeypuck and modified the charm source code to 
