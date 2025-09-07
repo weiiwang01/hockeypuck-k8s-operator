@@ -48,3 +48,9 @@ variable "units" {
   type        = number
   default     = 1
 }
+
+variable "test" {
+  description = "test"
+  type        = number
+  default     = 1
+}
