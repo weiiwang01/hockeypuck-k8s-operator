@@ -8,7 +8,8 @@ on:
 
 jobs:
   terraform-docs:
-    uses: weiiwang01/operator-workflows/.github/workflows/generate_terraform_docs.yaml@terraform-docs
+    name: Update Terraform documentation
+    uses: canonical/operator-workflows/.github/workflows/generate_terraform_docs.yaml@main
     secrets: inherit
     with:
       terraform-directory: terraform/charm,terraform/product,terraform/product/modules/traefik-k8s
